@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr&display=swap');
+
+* {
+	font-family: 'Mitr', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: white;
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+}
+
+@media(max-width: 991px) {
+    .sidebar {
+        background-color: black;
+        backdrop-filter: blur(10px);
+    }
+}
+.logout {
+    background-color: red;
+    border: 0;
+    border-radius: 20px;
+}
